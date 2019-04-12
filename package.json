@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node maincontroller.js"
+    "start": "node bootstrapfrontend/js/maincontroller.js"
   },
   "main": "bootstrapfrontend/js/maincontroller.js"
 }
