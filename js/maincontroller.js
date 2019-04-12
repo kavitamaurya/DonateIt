@@ -48,18 +48,13 @@ var app=angular.module('myApp', []);
     }
 
     $scope.logInCandidate = function() {
-        if($scope.allowLogin !== true) {
-            return;
-        }
-        else {
             var url = 'http://springboot-donateit.1d35.starter-us-east-1.openshiftapps.com/v1/gameUp/login', data = $scope.can, config = 'JSON';
             $http.post(url, data, config).then(function (response) {
                 console.log("ghar challo = " + JSON.stringify(response.data));
                 $window.location.href = 'HackathonDashboard/coreui-free-bootstrap-admin-template/src/index.html';
             }, function (response) {
-                console.log("chud gya = " + JSON.stringify(response.data));
+                console.log("broken = " + JSON.stringify(response.data));
             });
-        }
 
     }
     });
