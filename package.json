@@ -1,0 +1,4 @@
+"scripts": {
+"start": "node maincontroller.js"
+},
+"main": "bootstrapfrontend/js/maincontroller.js"
