@@ -1,0 +1,52 @@
+.jumbotron {
+	text-align:center;
+	background:none;
+}
+
+.sectionLight {
+	background-color: #eceeef;
+	padding: 2rem;
+}
+
+.sectionDark {
+	background-color: #cccccc;
+	padding: 2rem;
+}
+
+button.customisedButton {
+	background-color: red;
+	color: white;
+	display: block;
+	margin:auto;
+}
+
+button.custom {
+	background-color: red;
+	color:white;
+	display:block;
+	margin:auto;
+}
+
+.imgCenter {
+	display:block;
+	margin: auto;
+}
+
+button.btnCenter {
+	background-color: red;
+	color:white;
+	display: block;
+	margin: auto;
+	margin-top:15px;
+	margin-bottom:10px;
+	width: 75%;
+
+}
+.bg-inverse {
+	background-color: grey;
+	height: 320px;
+}
+
+.fa-facebook-official {
+	color: #3b5998;
+}
