@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node bootstrapfrontend/js/maincontroller.js"
+    "start": "node js/maincontroller.js"
   },
-  "main": "bootstrapfrontend/js/maincontroller.js"
+  "main": "js/maincontroller.js"
 }

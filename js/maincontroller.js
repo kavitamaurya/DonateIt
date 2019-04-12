@@ -23,11 +23,9 @@ app.controller('maincontroller', function($scope,$http,$window,$rootScope) {
         }
         var url = 'http://10.177.7.29:8083/v1/gameUp/signUp', data = $scope.candidate ,config='JSON';
         $http.post(url, data, config).then(function (response) {
-            console.log("ghar challo");
-            $window.location.href = '/GameUpFrontEnd/index.html';
+            $window.location.href = '/DonateIt/index.html';
         }, function (response) {
-            console.log("chud gya");
-            $window.location.href = '/GameUpFrontEnd/index.html';
+            $window.location.href = '/DonateIt/index.html';
         });
         console.log($scope.candidate);
     };

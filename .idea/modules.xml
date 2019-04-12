@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GameUpFrontEnd.iml" filepath="$PROJECT_DIR$/GameUpFrontEnd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DonateIt.iml" filepath="$PROJECT_DIR$/DonateIt.iml" />
     </modules>
   </component>
 </project>
