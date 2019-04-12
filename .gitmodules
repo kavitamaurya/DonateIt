@@ -1,0 +1,4 @@
+[submodule "DonateIt"]
+	path = DonateIt
+	url = https://github.com/kavitamaurya/DonateIt.git
+	branch = master
