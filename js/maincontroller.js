@@ -22,7 +22,7 @@ var app=angular.module('myApp', []);
             $scope.errorMsgShow = true;
             return;
         }
-        var url = 'http://52.167.130.119:8083/v1/gameUp/signUp', data = $scope.candidate ,config='JSON';
+        var url = 'http://springboot-donateit.1d35.starter-us-east-1.openshiftapps.com/v1/gameUp/signUp', data = $scope.candidate ,config='JSON';
         $http.post(url, data, config).then(function (response) {
             console.log("ghar challo");
             $window.location.href = '/GameUpFrontEnd/index.html';
@@ -52,7 +52,7 @@ var app=angular.module('myApp', []);
             return;
         }
         else {
-            var url = 'http://52.167.130.119:8083/v1/gameUp/login', data = $scope.can, config = 'JSON';
+            var url = 'http://springboot-donateit.1d35.starter-us-east-1.openshiftapps.com/v1/gameUp/login', data = $scope.can, config = 'JSON';
             $http.post(url, data, config).then(function (response) {
                 console.log("ghar challo = " + JSON.stringify(response.data));
                 $window.location.href = 'HackathonDashboard/coreui-free-bootstrap-admin-template/src/index.html';
