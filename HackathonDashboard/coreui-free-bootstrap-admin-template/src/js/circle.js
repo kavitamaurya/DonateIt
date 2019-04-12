@@ -2,8 +2,6 @@
 // America.
 
 // First, create an object containing LatLng and population for each city.
-
-
 var citymap = {
   Indiranagar: {
     center: {lat: 12.9719, lng: 77.6412},
@@ -29,10 +27,13 @@ var myLatLng = {
 
 
 var userslatLang = [
-{lat: 12.9719 , lng: 77.6412}, {lat:12.9260 , lng: 77.6762},{lat: 12.9279, lng: 77.6271},{lat: 13.0334, lng: 77.5640}
+{lat: 12.9719 , lng: 77.6412}, {lat:12.9260 , lng: 77.6762},{lat: 12.9279, lng: 77.6271},{lat: 13.0334, lng: 77.5640},
+{lat: 12.9519 , lng: 77.6512}, {lat:12.9560 , lng: 77.6562},{lat: 12.9579, lng: 77.6571},{lat: 13.0534, lng: 77.5540}
 ];
 
-var usersInfo = [{'Name': 'Shivam', 'Time' : '17:00 - 18:00'}, {'Name': 'Sumit', 'Time' : '17:00 - 18:00'}, {'Name': 'Aditya', 'Time' : '17:00 - 18:00'},{'Name': 'Satish', 'Time' : '17:00 - 18:00'}];
+var usersInfo = [{'Name': 'Shivam', 'Time' : 'O+'}, {'Name': 'Sumit', 'Time' : 'O+'}, {'Name': 'Aditya',
+'Time' : 'O+'},{'Name': 'Satish', 'Time' : 'O+'}, {'Name': 'Ayush', 'Time' : 'O+'}, {'Name': 'Kavita', 'Time' : 'O+'},
+{'Name': 'Gowri','Time' : 'O+'},{'Name': 'Jainesh', 'Time' : 'O+'}];
 var markers = [];
 var m1;
 function initMap() {
@@ -54,7 +55,7 @@ function initMap() {
     // Add the circle for this city to the map.
     var cityCircle = new google.maps.Circle({
       strokeColor: '#FF0000',
-      strokeOpacity: 0.8,.0
+      strokeOpacity: 0.8,
       strokeWeight: 2,
       fillColor: '#FF0000',
       fillOpacity: 0.35,

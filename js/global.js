@@ -66,12 +66,12 @@
         console.log(err);
     }
 
-    $('#indoor-game').select2({
-        placeholder: 'Indoor games'
-    });
+//    $('#indoor-game').select2({
+//        placeholder: 'Blood Group'
+//    });
 
-    $('#outdoor-game').select2({
-        placeholder: 'Outdoor games'
-    });
+//    $('#outdoor-game').select2({
+//        placeholder: 'Outdoor games'
+//    });
 
 })(jQuery);

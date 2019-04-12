@@ -550,22 +550,3 @@ input {
   margin-top: 10px;
   margin-left: 200px;
 }
-
-#map {
-  height: 100%;
-}
-/* Optional: Makes the sample page fill the window. */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.circle-text, #googleMap {
-    width: 600px;
-    height: 800px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 80%;
-    border-radius: 50%;
-    background: #4679BD;
-}
